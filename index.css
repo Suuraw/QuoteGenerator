@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background:url(38593.jpg) no-repeat center center/ cover;
+}
+.container{
+    width: 500px;
+    height: 450px;
+}
+.jsBox{
+    position: relative;
+    border: 1px solid black;
+    bottom: 5px;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    box-shadow: 0 0 10px black;
+
+}
+.box{
+    position: relative;
+    top: 5px;
+    border: 1px solid black;
+    width: 550px;
+    height: 300px;
+   padding: 50px 40px;
+   box-shadow: 0 0 10px black;
+}
+.box .textBox{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.box .author{
+    font-size: 1.6rem;
+    color:palegreen;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.box .quoteButton {
+    position: absolute; /* Change to absolute positioning */
+    bottom: 30px; /* Adjust this value to position the button from the bottom */
+    left: 50%; /* Center the button horizontally */
+    transform: translateX(-50%); /* Centering using transform */
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 20px; /* Adjust padding for a better button look */
+    /* Remove border for a cleaner button */
+    cursor: pointer; /* Change cursor to pointer */
+}
+.box .quoteButton:active{
+    background-color:lightblue;
+}
